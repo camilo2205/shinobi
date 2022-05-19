@@ -17,7 +17,7 @@ class Role extends Model
      *
      * @var array
      */
-    protected $fillable = ['name', 'slug', 'description', 'special'];
+    protected $fillable = ['name', 'slug', 'description', 'special', 'url'];
 
     /**
      * The database table used by the model.
